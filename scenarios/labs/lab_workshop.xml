@@ -266,24 +266,24 @@
 		<!--</build>-->
 	<!--</system>-->
 
-	<system>
+<!--	<system>
 		<system_name>kali</system_name>
 		<base distro="Kali" name="MSF"/>
 
 		<utility module_path=".*metasploit_framework"/>
 		<utility module_path=".*handy_cli_tools"/>
-		<utility module_path=".*nmap"/>
+        <utility module_path=".*nmap"/>
 
-		<utility module_path=".*armitage"/>
+		<utility module_path=".*armitage"/>-->
 
 		<!--TODO: REMOVE ME - THIS SHOULD BE IN THE KALI TEMPLATE-->
-		<utility module_path=".*ovirt_agents"/>
+        <!--<utility module_path=".*ovirt_agents"/>
 
 		<network type="private_network" >
 			<input into="IP_address">
 				<datastore access="2">IP_addresses</datastore>
 			</input>
 		</network>
-	</system>
+    </system>-->
 
 </scenario>
