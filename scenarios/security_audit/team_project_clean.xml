@@ -187,14 +187,14 @@
 
   </system>
 
-  <system>
+  <!--  <system>
     <system_name>attack_vm</system_name>
-    <base distro="Debian 7.8" name="KDE"/>
+    <base distro="Kali" name="MSF"/>
     <network type="private_network">
       <input into="IP_address">
         <datastore access="next">IP_addresses</datastore>
       </input>
     </network>
-  </system>
+  </system> -->
 
 </scenario>
